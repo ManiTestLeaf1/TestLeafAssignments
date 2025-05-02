@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite parallel="classes" name="Suite">
+  <test thread-count="5" parallel="classes" name="Test">
+    <classes>
+      <class name="week5.day2.LauchTestLeaf"/>
+      <class name="week5.day2.CreateAccountTestLeaf"/>
+      <class name="week5.day2.FBLogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
