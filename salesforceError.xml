@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<parameter name="url" value="https://login.salesforce.com/" ></parameter>
+<parameter name="user" value="vidyar@testleaf.com" ></parameter>
+<parameter name="pwd" value="Sales@123" ></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="week6.day1.SalesForce"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
